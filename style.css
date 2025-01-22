@@ -1,7 +1,7 @@
 /* General styles */
 body {
   font-family: "Georgia", serif; /* A chic, elegant font */
-  background-color: #D8E3D4; /* Sage green background */
+  background-color: #d8e3d4; /* Sage green background */
   margin: 0;
   padding: 0;
   display: flex;
@@ -21,10 +21,10 @@ header {
 }
 
 header h1 {
-  position: absolute;
+  position: centre fixed;
   margin: 0;
   font-size: 2.5em;
-  color: #2F4F4F; /* Dark sage color for the title */
+  color: #2f4f4f; /* Dark sage color for the title */
 }
 
 /* Button container */
@@ -40,7 +40,7 @@ button {
   padding: 0.1em 0.25em;
   width: 13em;
   height: 4.2em;
-  background-color: #2F4F4F; /* Dark sage green */
+  background-color: #2f4f4f; /* Dark sage green */
   border: 0.08em solid #fff;
   border-radius: 0.3em;
   font-size: 14px;
@@ -58,7 +58,7 @@ button span {
   bottom: 0.4em;
   width: 8.25em;
   height: 2.5em;
-  background-color: #2F4F4F;
+  background-color: #2f4f4f;
   border-radius: 0.2em;
   font-size: 1.5em;
   color: #fff;
@@ -67,7 +67,7 @@ button span {
 }
 
 button:hover {
-  background-color: #3C6657; /* Slightly lighter sage green on hover */
+  background-color: #3c6657; /* Slightly lighter sage green on hover */
 }
 
 button span:hover {
@@ -84,4 +84,3 @@ button span:not(hover) {
 a {
   text-decoration: none; /* Remove underline from links */
 }
-
