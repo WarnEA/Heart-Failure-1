@@ -12,15 +12,16 @@ body {
   color: #333; /* Dark gray text for good contrast */
 }
 
-/* Title (header) styles */
 header {
-  position: absolute;
+  position: fixed; /* Ensures the title stays at the top even when scrolling */
   top: 20px;
   text-align: center;
-  width: 100%;
+  width: 100%; /* Makes the header span the entire width */
+  z-index: 100; /* Ensures the header stays above other content */
 }
 
 header h1 {
+  position: absolute;
   margin: 0;
   font-size: 2.5em;
   color: #2F4F4F; /* Dark sage color for the title */
