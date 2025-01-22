@@ -30,7 +30,7 @@ header h1 {
 /* Button container */
 .button-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 20px;
 }
@@ -66,7 +66,7 @@ button span {
   box-shadow: 0 0.4em 0.1em 0.019em #fff;
 }
 
-button:hover {
+a button:hover {
   background-color: #3c6657; /* Slightly lighter sage green on hover */
 }
 
