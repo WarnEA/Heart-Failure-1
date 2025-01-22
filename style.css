@@ -75,3 +75,43 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* General Buttons */
+button, .toc-button {
+    background-color: #8AA68B; /* Sage green */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover, .toc-button:hover {
+    background-color: #738A76; /* Darker sage */
+    transform: scale(1.05);
+}
+
+/* TOC Styling */
+.toc {
+    background-color: #F7F9F8; /* Light sage background */
+    border: 1px solid #8AA68B; /* Sage border */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.toc a {
+    color: #2F3E34; /* Deep green */
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    margin: 5px 0;
+    transition: color 0.3s;
+}
+
+.toc a:hover {
+    color: #8AA68B; /* Sage green */
+}
+
